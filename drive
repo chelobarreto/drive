@@ -1,0 +1,3 @@
+#!/bin/bash
+DRIVE_PATH=/home/mbarreto/gdrive
+docker run -u mbarreto:mbarreto -it -v ${DRIVE_PATH}:/opt/gdrive chelobarreto/drive:1.0 bash
